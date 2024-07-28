@@ -14,7 +14,7 @@ def customerlog(r):
     f=font.Font(weight="bold",family="times new roman",size=25)
     x=Label(frame,text="Madhan Bank",font=f)
     x.configure(bg="yellow",fg="black")
-    x.place(relx=.45,rely=.1)
+    x.place(relx=.45,rely=.1) 
 
     frame=Frame(r,width=500,height=250,bg="#4FD6F7").place(relx=.35,rely=.3)
     f=font.Font(r,weight="bold",family="times new roman",size=20)

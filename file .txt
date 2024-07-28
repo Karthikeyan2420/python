@@ -1,0 +1,11 @@
+class grade:
+    def _init_(self,name,place):
+        self.name=name
+        self.place=place
+        print("ooty is a beauiful place")
+    def fucgrade(self):
+        print(self.name,self.place)
+
+
+d=grade("rani","covai")
+d=fungrade()
